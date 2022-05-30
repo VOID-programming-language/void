@@ -1,0 +1,12 @@
+[package]
+name = 'void'
+version = '0.1.0'
+edition = '2021'
+license = 'License.md'
+readme = 'README.md'
+
+[dependencies]
+c_rs = {version = '0.1.9', features = ['macro']}
+
+[build-dependencies]
+c_rs = {version = '0.1.9', features = ['build']}
